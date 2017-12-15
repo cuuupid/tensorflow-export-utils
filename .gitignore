@@ -1,0 +1,5 @@
+*.pb
+*.pbtxt
+labels.txt
+*.ckpt*
+*.pyc
