@@ -27,6 +27,8 @@ def process(image_filename, graph, labels_dict):
     img = img.astype(np.float32)
     img = np.expand_dims(img, 0)
     img = (img / 255) - 0.5 * 2.
+
+    # Edit these into the input and output tensors
     x = graph.get_tensor_by_name('graph/input:0')
     y = graph.get_tensor_by_name('graph/MobilenetV1/Predictions/Reshape:0')
 

@@ -1,4 +1,4 @@
-# Mobilenet
+# Freezing Models
 
 ## Preparation
 
