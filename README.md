@@ -37,4 +37,4 @@ Models from tensorflow/models repo.
 
 Datasets, pretrained checkpoints, etc. from tensorflow/models/research/slim.
 
-**Updated as of 10/15/2017.**
+**Working as of 3/4/2018.**
